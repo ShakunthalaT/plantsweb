@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+### Project starts with 
+    npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Title
 
-## Available Scripts
+   Front-end assessment using react.js
 
-In the project directory, you can run:
+## Objective
+    
+    Building the UI for an E-commerce Listing Page based
+    on the provided Figma design. The page should display a list of products, and
+    each product should have an option to either view the product or add it to the
+    cart. There will be no dedicated product page, so when a user clicks "View
+    Product," they should be redirected to a custom Thank You page.
+    Additionally, when users click "Add to Cart," a modal should open, as per ui
+    design.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    React.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Completion Instructions
 
-### `npm test`
+### Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Must Have
 
-### `npm run build`
+1. Header Section:
+Mavyax Tech Private Limited CIN U85499UP2023PTC182763
+a. A search bar for searching products.
+b. Icons for profile and cart.
+2. Product List Section:
+a. Display a grid/list of products based on the Figma design.
+b. Each product card should include:
+i. Product Image
+ii. Product Name
+iii. Price
+iv. "View Product" and "Add to Cart" buttons.
+c. Clicking "View Product" should redirect the user to a custom
+"Thank You" page. There will be no product details page, so you
+are required to design a Thank You page from scratch.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Add to Cart Modal:
+a. Clicking “Add to Cart” on any product should open a modal that
+displays the product’s details and an option to confirm adding the
+product to the cart.
+b. The modal design is included in the Figma file and should be
+closely followed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Pagination:
+a. Implement pagination to navigate through multiple product
+listings (functional but mock data is acceptable).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Thank You Page:
+a. Create a simple "Thank You" page to which users are redirected
+after clicking "View Product". This page should acknowledge their
+action with a simple message (e.g., "Thank you for your interest in
+[Product Name]!").
 
-### `npm run eject`
+### Guidelines to develop a project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Must Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. UI/UX Implementation:
+a. How closely does the final design align with the provided Figma
+file?
+2. Code Quality:
+a. Are the components modular, cleanly structured, and reusable?
+3. Functionality:
+a. Does the "View Product" button properly redirect to the "Thank
+You" page?
+b. Does the "Add to Cart" modal function correctly and display as
+expected?
+4. Attention to Detail:
+a. Overall polish, including hover states, modals, and the user
+experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Nice to Have
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+a. Break down the app into reusable components such as
+ProductCard, Header, Pagination, and AddToCartModal.
+b. Make sure each component handles a specific functionality.
 
-## Learn More
+### Submission Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Must Have
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Source Code:
+a. Submit your project via a GitHub repository, with instructions on
+how to run the project in the README file.
 
-### Code Splitting
+2. ReadMe:
+a. Include a README that explains the approach you took, any
+challenges faced, and how to run the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Deployment (Optional):
 
-### Analyzing the Bundle Size
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Design files
+Figma Link =>
+https://www.figma.com/design/AvK9THieFnvEKfIIupCr2p/Untitled?
+node-id=1-2014&t=gT1SiG9uEORZICLj-1
 
-### Making a Progressive Web App
+### APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    a. Use static or mock data for products (you don't need to
+    implement a backend or API).
 
-### Advanced Configuration
+### Third-party packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    npm install react-router-dom,     npm install react-icons,    npm install popup
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

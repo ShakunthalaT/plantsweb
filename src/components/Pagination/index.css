@@ -1,0 +1,58 @@
+.input-element{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+} 
+
+.ul-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+   
+} 
+
+.pagination{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.next{
+    margin-left: 30px;
+    color: #276211;
+} 
+
+.previous{
+    color:#276211;
+    
+} 
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+} 
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    color:#276211;
+}
+
+.search{
+    margin-right: 5px;
+} 
+
+.leaf-icon{
+    margin-left: 5px;
+}

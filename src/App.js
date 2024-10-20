@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import {Routes,Route} from 'react-router-dom'
+
+import Pagination from './components/Pagination';
+import Cart from './components/Cart';
+import ThanksPage from './components/ThanksPage'
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = ()=>(
+  <>
+    <Routes>
+      <Route exact path="/pagination" Component={Pagination}/>
+      <Route exact path="/cart" Component={Cart}/>
+      <Route exact path="/thankspage" Component={ThanksPage}/>
+    </Routes>
+  </>
+  
+)
 
-export default App;
+export default App

@@ -1,0 +1,44 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   }
+
+.header-items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:90%;
+    max-width:1140px;
+}
+
+.website-logo{
+    width:100%;
+}
+
+.icon-container{
+    display: flex;
+    
+}
+.profile{
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 600;
+   
+}
+.profile-container{
+   margin-right: 30px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.cart-nav{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cart-text{
+   margin-top: 0px; 
+   font-weight: 700;
+}
